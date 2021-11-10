@@ -1,0 +1,9 @@
+D:\JIM\service\EShopsolution-services\EshopSolution.Extentsions\bin\Debug\netstandard2.0\EshopSolution.Extensions.deps.json
+D:\JIM\service\EShopsolution-services\EshopSolution.Extentsions\bin\Debug\netstandard2.0\EshopSolution.Extensions.dll
+D:\JIM\service\EShopsolution-services\EshopSolution.Extentsions\bin\Debug\netstandard2.0\EshopSolution.Extensions.pdb
+D:\JIM\service\EShopsolution-services\EshopSolution.Extentsions\obj\Debug\netstandard2.0\EshopSolution.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+D:\JIM\service\EShopsolution-services\EshopSolution.Extentsions\obj\Debug\netstandard2.0\EshopSolution.Extensions.AssemblyInfoInputs.cache
+D:\JIM\service\EShopsolution-services\EshopSolution.Extentsions\obj\Debug\netstandard2.0\EshopSolution.Extensions.AssemblyInfo.cs
+D:\JIM\service\EShopsolution-services\EshopSolution.Extentsions\obj\Debug\netstandard2.0\EshopSolution.Extensions.csproj.CoreCompileInputs.cache
+D:\JIM\service\EShopsolution-services\EshopSolution.Extentsions\obj\Debug\netstandard2.0\EshopSolution.Extensions.dll
+D:\JIM\service\EShopsolution-services\EshopSolution.Extentsions\obj\Debug\netstandard2.0\EshopSolution.Extensions.pdb

@@ -1,0 +1,9 @@
+D:\JIM\service\EShopsolution-services\FileService.Domain\bin\Debug\netstandard2.0\FileService.Domain.deps.json
+D:\JIM\service\EShopsolution-services\FileService.Domain\bin\Debug\netstandard2.0\FileService.Domain.dll
+D:\JIM\service\EShopsolution-services\FileService.Domain\bin\Debug\netstandard2.0\FileService.Domain.pdb
+D:\JIM\service\EShopsolution-services\FileService.Domain\obj\Debug\netstandard2.0\FileService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\JIM\service\EShopsolution-services\FileService.Domain\obj\Debug\netstandard2.0\FileService.Domain.AssemblyInfoInputs.cache
+D:\JIM\service\EShopsolution-services\FileService.Domain\obj\Debug\netstandard2.0\FileService.Domain.AssemblyInfo.cs
+D:\JIM\service\EShopsolution-services\FileService.Domain\obj\Debug\netstandard2.0\FileService.Domain.csproj.CoreCompileInputs.cache
+D:\JIM\service\EShopsolution-services\FileService.Domain\obj\Debug\netstandard2.0\FileService.Domain.dll
+D:\JIM\service\EShopsolution-services\FileService.Domain\obj\Debug\netstandard2.0\FileService.Domain.pdb

@@ -1,0 +1,28 @@
+{
+  "spring": {
+    "application": {
+      "name": "ProductService"
+    }
+  },
+  "Audience": {
+    "Secret": "Y2F0Y2hlciUyMHdvbmclMjBsb3ZlJTIwLm5ldA==",
+    "Iss": "lovenco0410@gmail.com",
+    "Aud": "9f132c918ad4eda8ee6ba91e661f9d9"
+  },
+  "eureka": {
+    "client": {
+      "serviceUrl": "http://localhost:8761/eureka/",
+      "shouldFetchRegistry": true,
+      "shouldRegisterWithEureka": true,
+      "ValidateCertificates": false
+    },
+    "instance": {
+      "instanceId": "127.0.0.1:2222",
+      "appName": "ProductService",
+      "hostName": "127.0.0.1",
+      "ipAddress": "127.0.0.1",
+      "preferIpAddress": true,
+      "port": "2222"
+    }
+  }
+}

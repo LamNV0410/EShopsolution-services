@@ -1,0 +1,16 @@
+D:\JIM\service\EShopsolution-services\ProductService.Domain\bin\Debug\netcoreapp3.1\ProductService.Domain.deps.json
+D:\JIM\service\EShopsolution-services\ProductService.Domain\bin\Debug\netcoreapp3.1\ProductService.Domain.runtimeconfig.json
+D:\JIM\service\EShopsolution-services\ProductService.Domain\bin\Debug\netcoreapp3.1\ProductService.Domain.runtimeconfig.dev.json
+D:\JIM\service\EShopsolution-services\ProductService.Domain\bin\Debug\netcoreapp3.1\ProductService.Domain.dll
+D:\JIM\service\EShopsolution-services\ProductService.Domain\bin\Debug\netcoreapp3.1\ProductService.Domain.pdb
+D:\JIM\service\EShopsolution-services\ProductService.Domain\bin\Debug\netcoreapp3.1\EshopSolution.Extensions.dll
+D:\JIM\service\EShopsolution-services\ProductService.Domain\bin\Debug\netcoreapp3.1\EshopSolution.Extensions.pdb
+D:\JIM\service\EShopsolution-services\ProductService.Domain\obj\Debug\netcoreapp3.1\ProductService.Domain.csproj.AssemblyReference.cache
+D:\JIM\service\EShopsolution-services\ProductService.Domain\obj\Debug\netcoreapp3.1\ProductService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\JIM\service\EShopsolution-services\ProductService.Domain\obj\Debug\netcoreapp3.1\ProductService.Domain.AssemblyInfoInputs.cache
+D:\JIM\service\EShopsolution-services\ProductService.Domain\obj\Debug\netcoreapp3.1\ProductService.Domain.AssemblyInfo.cs
+D:\JIM\service\EShopsolution-services\ProductService.Domain\obj\Debug\netcoreapp3.1\ProductService.Domain.csproj.CoreCompileInputs.cache
+D:\JIM\service\EShopsolution-services\ProductService.Domain\obj\Debug\netcoreapp3.1\ProductService.Domain.csproj.CopyComplete
+D:\JIM\service\EShopsolution-services\ProductService.Domain\obj\Debug\netcoreapp3.1\ProductService.Domain.dll
+D:\JIM\service\EShopsolution-services\ProductService.Domain\obj\Debug\netcoreapp3.1\ProductService.Domain.pdb
+D:\JIM\service\EShopsolution-services\ProductService.Domain\obj\Debug\netcoreapp3.1\ProductService.Domain.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\JIM\service\EShopsolution-services\OrderService.Domain\bin\Debug\netstandard2.0\OrderService.Domain.deps.json
+D:\JIM\service\EShopsolution-services\OrderService.Domain\bin\Debug\netstandard2.0\OrderService.Domain.dll
+D:\JIM\service\EShopsolution-services\OrderService.Domain\bin\Debug\netstandard2.0\OrderService.Domain.pdb
+D:\JIM\service\EShopsolution-services\OrderService.Domain\bin\Debug\netstandard2.0\EshopSolution.Extensions.dll
+D:\JIM\service\EShopsolution-services\OrderService.Domain\bin\Debug\netstandard2.0\EshopSolution.Extensions.pdb
+D:\JIM\service\EShopsolution-services\OrderService.Domain\obj\Debug\netstandard2.0\OrderService.Domain.csproj.AssemblyReference.cache
+D:\JIM\service\EShopsolution-services\OrderService.Domain\obj\Debug\netstandard2.0\OrderService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\JIM\service\EShopsolution-services\OrderService.Domain\obj\Debug\netstandard2.0\OrderService.Domain.AssemblyInfoInputs.cache
+D:\JIM\service\EShopsolution-services\OrderService.Domain\obj\Debug\netstandard2.0\OrderService.Domain.AssemblyInfo.cs
+D:\JIM\service\EShopsolution-services\OrderService.Domain\obj\Debug\netstandard2.0\OrderService.Domain.csproj.CoreCompileInputs.cache
+D:\JIM\service\EShopsolution-services\OrderService.Domain\obj\Debug\netstandard2.0\OrderService.Domain.csproj.CopyComplete
+D:\JIM\service\EShopsolution-services\OrderService.Domain\obj\Debug\netstandard2.0\OrderService.Domain.dll
+D:\JIM\service\EShopsolution-services\OrderService.Domain\obj\Debug\netstandard2.0\OrderService.Domain.pdb
