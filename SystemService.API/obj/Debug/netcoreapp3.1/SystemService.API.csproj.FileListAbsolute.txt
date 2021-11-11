@@ -110,7 +110,7 @@ D:\JIM\service\EShopsolution-services\SystemService.API\obj\Debug\netcoreapp3.1\
 D:\JIM\service\EShopsolution-services\SystemService.API\obj\Debug\netcoreapp3.1\staticwebassets\SystemService.API.StaticWebAssets.xml
 D:\JIM\service\EShopsolution-services\SystemService.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\SystemService.API.styles.css
 D:\JIM\service\EShopsolution-services\SystemService.API\obj\Debug\netcoreapp3.1\SystemService.API.RazorTargetAssemblyInfo.cache
-D:\JIM\service\EShopsolution-services\SystemService.API\obj\Debug\netcoreapp3.1\SystemService.API.csproj.CopyComplete
 D:\JIM\service\EShopsolution-services\SystemService.API\obj\Debug\netcoreapp3.1\SystemService.API.dll
 D:\JIM\service\EShopsolution-services\SystemService.API\obj\Debug\netcoreapp3.1\SystemService.API.pdb
 D:\JIM\service\EShopsolution-services\SystemService.API\obj\Debug\netcoreapp3.1\SystemService.API.genruntimeconfig.cache
+D:\JIM\service\EShopsolution-services\SystemService.API\obj\Debug\netcoreapp3.1\SystemService.API.csproj.CopyComplete

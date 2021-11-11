@@ -1,4 +1,5 @@
 ﻿using CLSK12.BaseService.Services.IdentityService;
+using EshopSolution.Extensions.Exceptions;
 using EshopSolution.Extensions.Extensions;
 using MediatR;
 using System.Threading;
@@ -9,11 +10,11 @@ using SystemService.Domain.IRepositories;
 
 namespace SystemService.API.Application.Commands.CommandHandlers
 {
-    public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, User>
+    public class EditUserCommandHandler : IRequestHandler<EditUserCommand, User>
     {
         private readonly IUserRepository _userRepository;
         private readonly IIdentityService _identityService;
-        public CreateUserCommandHandler(
+        public EditUserCommandHandler(
             IUserRepository userRepository,
             IIdentityService identityService
             )
@@ -21,36 +22,40 @@ namespace SystemService.API.Application.Commands.CommandHandlers
             _userRepository = userRepository;
             _identityService = identityService;
         }
-        public async Task<User> Handle(CreateUserCommand request, CancellationToken cancellationToken)
+        public async Task<User> Handle(EditUserCommand request, CancellationToken cancellationToken)
         {
             var currentUser = _identityService.GetUserIdentity();
-            var passwordHasher = new SHA256Hasher().Create(request.Password);
-            User user = new User(
+            var user = await _userRepository.GetByIdAsync(request.Id);
+            if (user != null)
+            {
+                user.Update(
                 request.UserName,
                 request.FirstName,
                 request.LastName,
                 request.Address,
                 request.PhoneNumber,
-                passwordHasher.PasswordHashed,
-                passwordHasher.Salt,
                 request.Gender,
-                request.TypeRoleId,
+                request.UserTypeId,
                 request.Email,
                 currentUser.Id,
                 true
                 );
 
-            User userCreated = _userRepository.Create(user);
-            await _userRepository.BaseRepository.SaveEntitiesAsync();
-            if (!string.IsNullOrEmpty(request.AvatarUrl))
-            {
-                Avatar avatar = new Avatar(currentUser.Id);
-                avatar.Url = request.AvatarUrl;
-                avatar.UserId = userCreated.Id;
-                await _userRepository.BaseRepository.SaveEntitiesAsync();
-            }
+                if (!string.IsNullOrEmpty(request.Password))
+                {
+                    var passwordHasher = new SHA256Hasher().Create(request.Password);
 
-            return userCreated;
+                    user.UpdatePassword(passwordHasher.PasswordHashed, passwordHasher.Salt);
+                }
+
+                var userUpdated = _userRepository.Update(user);
+                await _userRepository.BaseRepository.SaveChangesAsync();
+                return userUpdated;
+            }
+            else
+            {
+                throw new HttpStatusException(System.Net.HttpStatusCode.BadRequest, "User not Found !! ", null);
+            }
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using EshopSolution.Extensions.BaseDbContext;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Threading.Tasks;
 using SystemService.Domain.DomainModel;
@@ -21,14 +22,14 @@ namespace SystemService.Infrastructure.Repositoies
             return _context.Add(entity).Entity;
         }
 
-        public UserType GetById(Guid id)
+        public Task<UserType> GetById(Guid id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<UserType> GetByIdAsync(Guid id)
+        public async Task<UserType> GetByIdAsync(Guid id)
         {
-            throw new NotImplementedException();
+            return await _context.UserTypes.FirstOrDefaultAsync(x => x.Id == id);
         }
 
         public void Remove(UserType entity)
@@ -38,7 +39,8 @@ namespace SystemService.Infrastructure.Repositoies
 
         public UserType Update(UserType entity)
         {
-            throw new NotImplementedException();
+            _context.Entry(entity).State = EntityState.Modified;
+            return entity;
         }
     }
 }

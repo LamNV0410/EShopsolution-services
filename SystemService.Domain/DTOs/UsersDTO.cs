@@ -11,7 +11,7 @@ namespace SystemService.Domain.DTOs
         public string Address { get; private set; }
         public string PhoneNumber { get; private set; }
         public byte Gender { get; private set; }
-        public Guid UserTypeRoleId { get; private set; }
+        public Guid userTypeId { get; private set; }
         public Guid UserTypeRoleName { get; private set; }
 
         public string Email { get; private set; }

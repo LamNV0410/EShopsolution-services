@@ -38,16 +38,20 @@ namespace EshopSolution.Extensions.BaseEntity
         /// <summary>
         /// deactive / delete Entity
         /// </summary>
-        public virtual void Deactive()
+        public virtual void Deactive(Guid updateBy)
         {
+            this.UpdatedBy = updateBy;
+            this.UpdatedDate = DateTime.UtcNow;
             this.IsActive = false;
         }
 
         /// <summary>
         /// active Entity
         /// </summary>
-        public virtual void Active()
+        public virtual void Active(Guid updateBy)
         {
+            this.UpdatedBy = updateBy;
+            this.UpdatedDate = DateTime.UtcNow;
             this.IsActive = false;
         }
     }

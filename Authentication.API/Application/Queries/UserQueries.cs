@@ -33,7 +33,7 @@ FirstName,
 LastName,
 Password,
 Salt,
-UserTypeRoleId
+UserTypeId
 FROM SystemService.Users
 WHERE userName = @userName
 ");

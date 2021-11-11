@@ -12,7 +12,7 @@ D:\JIM\service\EShopsolution-services\OrderService.Infrastructure\obj\Debug\netc
 D:\JIM\service\EShopsolution-services\OrderService.Infrastructure\obj\Debug\netcoreapp3.1\OrderService.Infrastructure.AssemblyInfoInputs.cache
 D:\JIM\service\EShopsolution-services\OrderService.Infrastructure\obj\Debug\netcoreapp3.1\OrderService.Infrastructure.AssemblyInfo.cs
 D:\JIM\service\EShopsolution-services\OrderService.Infrastructure\obj\Debug\netcoreapp3.1\OrderService.Infrastructure.csproj.CoreCompileInputs.cache
-D:\JIM\service\EShopsolution-services\OrderService.Infrastructure\obj\Debug\netcoreapp3.1\OrderService.Infrastructure.csproj.CopyComplete
 D:\JIM\service\EShopsolution-services\OrderService.Infrastructure\obj\Debug\netcoreapp3.1\OrderService.Infrastructure.dll
 D:\JIM\service\EShopsolution-services\OrderService.Infrastructure\obj\Debug\netcoreapp3.1\OrderService.Infrastructure.pdb
 D:\JIM\service\EShopsolution-services\OrderService.Infrastructure\obj\Debug\netcoreapp3.1\OrderService.Infrastructure.genruntimeconfig.cache
+D:\JIM\service\EShopsolution-services\OrderService.Infrastructure\obj\Debug\netcoreapp3.1\OrderService.Infrastructure.csproj.CopyComplete

@@ -24,7 +24,7 @@ namespace SystemService.Infrastructure.Repositoies
             throw new NotImplementedException();
         }
 
-        public Avatar GetById(Guid id)
+        public Task<Avatar> GetById(Guid id)
         {
             throw new NotImplementedException();
         }

@@ -26,7 +26,8 @@ namespace SystemService.Infrastructure.Queries
                 string sql = @"
 SELECT 
 Id,
-TypeName
+TypeName,
+UserTypeRoleId
 FROM SystemService.UserTypes
 WHERE Id = @id";
                 return await connection.QueryFirstOrDefaultAsync<UserTypeDTO>(sql, new { id = id });

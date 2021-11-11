@@ -110,7 +110,7 @@ D:\JIM\service\EShopsolution-services\OrderService.API\obj\Debug\netcoreapp3.1\s
 D:\JIM\service\EShopsolution-services\OrderService.API\obj\Debug\netcoreapp3.1\staticwebassets\OrderService.API.StaticWebAssets.xml
 D:\JIM\service\EShopsolution-services\OrderService.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\OrderService.API.styles.css
 D:\JIM\service\EShopsolution-services\OrderService.API\obj\Debug\netcoreapp3.1\OrderService.API.RazorTargetAssemblyInfo.cache
-D:\JIM\service\EShopsolution-services\OrderService.API\obj\Debug\netcoreapp3.1\OrderService.API.csproj.CopyComplete
 D:\JIM\service\EShopsolution-services\OrderService.API\obj\Debug\netcoreapp3.1\OrderService.API.dll
 D:\JIM\service\EShopsolution-services\OrderService.API\obj\Debug\netcoreapp3.1\OrderService.API.pdb
 D:\JIM\service\EShopsolution-services\OrderService.API\obj\Debug\netcoreapp3.1\OrderService.API.genruntimeconfig.cache
+D:\JIM\service\EShopsolution-services\OrderService.API\obj\Debug\netcoreapp3.1\OrderService.API.csproj.CopyComplete

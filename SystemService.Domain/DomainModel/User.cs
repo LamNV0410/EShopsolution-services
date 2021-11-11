@@ -28,6 +28,7 @@ namespace SystemService.Domain.DomainModel
             string phoneNumber,
             string password,
             string salt,
+            byte gender,
             Guid role,
             string email,
             Guid createdBy,
@@ -39,13 +40,45 @@ namespace SystemService.Domain.DomainModel
             Address = address;
             PhoneNumber = phoneNumber;
             Password = password;
+            Gender = gender;
             Salt = salt;
             UserTypeId = role;
             Email = email;
             IsActive = isActive;
             CreatedBy = createdBy;
             CreatedDate = DateTime.UtcNow;
-            base.Active();
+            base.Active(createdBy);
+        }
+
+        public void Update(
+            string userName,
+            string firstName,
+            string lastName,
+            string address,
+            string phoneNumber,
+            byte gender,
+            Guid role,
+            string email,
+            Guid createdBy,
+            bool isActive)
+        {
+            UserName = userName;
+            FirstName = firstName;
+            LastName = lastName;
+            Address = address;
+            PhoneNumber = phoneNumber;
+            Gender = gender;
+            UserTypeId = role;
+            Email = email;
+            IsActive = isActive;
+            UpdatedBy = createdBy;
+            UpdatedDate = DateTime.UtcNow;
+        }
+
+        public void UpdatePassword(string password, string salt)
+        {
+            this.Password = password;
+            this.Salt = salt;
         }
     }
 }

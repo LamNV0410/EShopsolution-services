@@ -1,4 +1,5 @@
-﻿using EshopSolution.Extensions.Constants;
+﻿using CLSK12.BaseService.Services.IdentityService;
+using EshopSolution.Extensions.Constants;
 using EshopSolution.Extensions.Exceptions;
 using MediatR;
 using ProductService.API.Application.ProductsApp.Commands.CommandModels;
@@ -17,21 +18,27 @@ namespace ProductService.API.Application.ProductsApp.Commands.CommandHandlers
     {
         private readonly IProductRepository _productRepository;
         private readonly IProductImageRepository _productImageRepository;
-        public DeleteProductCommandHandler(IProductRepository productRepository, IProductImageRepository productImageRepository)
+        private readonly IIdentityService _identityService;
+        public DeleteProductCommandHandler(
+            IProductRepository productRepository,
+            IProductImageRepository productImageRepository,
+            IIdentityService identityService
+            )
         {
             _productRepository = productRepository;
             _productImageRepository = productImageRepository;
+            _identityService = identityService;
         }
         public async Task<bool> Handle(DeleteProductCommand request, CancellationToken cancellationToken)
         {
-            // find product in db
+            var currentUser = _identityService.GetUserIdentity();
             var product =  _productRepository.GetByIdAsync(request.Id);
             if (product == null)
             {
                 throw new HttpStatusException(HttpStatusCode.BadRequest,
                     EshopMessages.GetMessage(new string[] { " Product " }, EshopMessages.NOT_FOUND_MESSAGE), null);
             }
-            product.Deactive();
+            product.Deactive(currentUser.Id);
             await _productRepository.BaseRepository.SaveChangesAsync();
             return true;
         }

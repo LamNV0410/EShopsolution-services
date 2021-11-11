@@ -22,7 +22,20 @@ namespace SystemService.Domain.DomainModel
             CreatedBy = userId;
             UserTypeRoleId = userTypeRoleId;
             CreatedDate = DateTime.UtcNow;
-            base.Active();
+            base.Active(userId);
+        }
+
+        public void Update(string typeName,Guid userTypeRoleId, Guid updateBy)
+        {
+            this.TypeName = typeName;
+            this.UserTypeRoleId = userTypeRoleId;
+            this.UpdatedBy = updateBy;
+            this.UpdatedDate = DateTime.UtcNow;
+        }
+
+        public void Delete()
+        {
+            this.IsActive = false;
         }
     }
 }

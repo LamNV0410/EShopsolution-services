@@ -72,7 +72,7 @@ D:\JIM\service\EShopsolution-services\GatewayAPI\obj\Debug\netcoreapp3.1\staticw
 D:\JIM\service\EShopsolution-services\GatewayAPI\obj\Debug\netcoreapp3.1\staticwebassets\GatewayAPI.StaticWebAssets.xml
 D:\JIM\service\EShopsolution-services\GatewayAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\GatewayAPI.styles.css
 D:\JIM\service\EShopsolution-services\GatewayAPI\obj\Debug\netcoreapp3.1\GatewayAPI.RazorTargetAssemblyInfo.cache
-D:\JIM\service\EShopsolution-services\GatewayAPI\obj\Debug\netcoreapp3.1\GatewayAPI.csproj.CopyComplete
 D:\JIM\service\EShopsolution-services\GatewayAPI\obj\Debug\netcoreapp3.1\GatewayAPI.dll
 D:\JIM\service\EShopsolution-services\GatewayAPI\obj\Debug\netcoreapp3.1\GatewayAPI.pdb
 D:\JIM\service\EShopsolution-services\GatewayAPI\obj\Debug\netcoreapp3.1\GatewayAPI.genruntimeconfig.cache
+D:\JIM\service\EShopsolution-services\GatewayAPI\obj\Debug\netcoreapp3.1\GatewayAPI.csproj.CopyComplete

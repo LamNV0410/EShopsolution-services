@@ -83,7 +83,7 @@ D:\JIM\service\EShopsolution-services\Authentication.API\obj\Debug\netcoreapp3.1
 D:\JIM\service\EShopsolution-services\Authentication.API\obj\Debug\netcoreapp3.1\staticwebassets\Authentication.API.StaticWebAssets.xml
 D:\JIM\service\EShopsolution-services\Authentication.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Authentication.API.styles.css
 D:\JIM\service\EShopsolution-services\Authentication.API\obj\Debug\netcoreapp3.1\Authentication.API.RazorTargetAssemblyInfo.cache
-D:\JIM\service\EShopsolution-services\Authentication.API\obj\Debug\netcoreapp3.1\Authentication.API.csproj.CopyComplete
 D:\JIM\service\EShopsolution-services\Authentication.API\obj\Debug\netcoreapp3.1\Authentication.API.dll
 D:\JIM\service\EShopsolution-services\Authentication.API\obj\Debug\netcoreapp3.1\Authentication.API.pdb
 D:\JIM\service\EShopsolution-services\Authentication.API\obj\Debug\netcoreapp3.1\Authentication.API.genruntimeconfig.cache
+D:\JIM\service\EShopsolution-services\Authentication.API\obj\Debug\netcoreapp3.1\Authentication.API.csproj.CopyComplete

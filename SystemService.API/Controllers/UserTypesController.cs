@@ -44,7 +44,7 @@ namespace OrderService.API.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById([FromRoute]Guid id)
+        public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             GetUserTypeByIdQuery query = new GetUserTypeByIdQuery();
             query.Id = id;
@@ -54,6 +54,20 @@ namespace OrderService.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateUserTypecommand command)
         {
+            return Ok(await _mediator.Send(command));
+        }
+
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> Edit([FromRoute] Guid id, [FromBody] UpdateUserTypeCommand command)
+        {
+            command.Id = id;
+            return Ok(await _mediator.Send(command));
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete([FromRoute] Guid id, [FromBody] DeleteUserTypeCommand command)
+        {
+            command.Id = id;
             return Ok(await _mediator.Send(command));
         }
     }

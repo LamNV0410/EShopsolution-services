@@ -8,7 +8,7 @@ namespace EshopSolution.Extensions.BaseDbContext
         T Create(T entity);
         T Update(T entity);
         Task<T> GetByIdAsync(Guid id);
-        T GetById(Guid id);
+        Task<T> GetById(Guid id);
         void Remove(T entity);
     }
 }

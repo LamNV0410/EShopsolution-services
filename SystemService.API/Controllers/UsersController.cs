@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using SystemService.API.Application.Commands.CommandModels;
 using SystemService.API.Application.Queries.QueryModels;
 
-namespace OrderService.API.Controllers
+namespace SystemService.API.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
@@ -22,7 +22,7 @@ namespace OrderService.API.Controllers
         [HttpGet("infor")]
         public async Task<IActionResult> Get()
         {
-            return Ok( "Order service infor");
+            return Ok("Order service infor");
         }
 
         [HttpGet("")]
@@ -35,9 +35,14 @@ namespace OrderService.API.Controllers
         {
             return Ok(await _mediator.Send(command));
         }
-
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> Edit([FromRoute] Guid id, [FromBody] EditUserCommand command)
+        {
+            command.Id = id;
+            return Ok(await _mediator.Send(command));
+        }
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById([FromRoute]Guid id)
+        public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             GetUserByIdQuery query = new GetUserByIdQuery();
             query.Id = id;

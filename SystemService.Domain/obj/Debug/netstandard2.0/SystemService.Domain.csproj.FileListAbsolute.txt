@@ -8,6 +8,6 @@ D:\JIM\service\EShopsolution-services\SystemService.Domain\obj\Debug\netstandard
 D:\JIM\service\EShopsolution-services\SystemService.Domain\obj\Debug\netstandard2.0\SystemService.Domain.AssemblyInfoInputs.cache
 D:\JIM\service\EShopsolution-services\SystemService.Domain\obj\Debug\netstandard2.0\SystemService.Domain.AssemblyInfo.cs
 D:\JIM\service\EShopsolution-services\SystemService.Domain\obj\Debug\netstandard2.0\SystemService.Domain.csproj.CoreCompileInputs.cache
-D:\JIM\service\EShopsolution-services\SystemService.Domain\obj\Debug\netstandard2.0\SystemService.Domain.csproj.CopyComplete
 D:\JIM\service\EShopsolution-services\SystemService.Domain\obj\Debug\netstandard2.0\SystemService.Domain.dll
 D:\JIM\service\EShopsolution-services\SystemService.Domain\obj\Debug\netstandard2.0\SystemService.Domain.pdb
+D:\JIM\service\EShopsolution-services\SystemService.Domain\obj\Debug\netstandard2.0\SystemService.Domain.csproj.CopyComplete
