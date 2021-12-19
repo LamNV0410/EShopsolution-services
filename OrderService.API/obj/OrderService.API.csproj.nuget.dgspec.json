@@ -165,6 +165,10 @@
               "target": "Package",
               "version": "[3.1.9, )"
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
             "Steeltoe.Discovery.ClientCore": {
               "target": "Package",
               "version": "[2.4.2, )"

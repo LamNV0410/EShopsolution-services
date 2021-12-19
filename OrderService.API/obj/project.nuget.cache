@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "drULUUw/u/PE3IQLxM7pjV0XIabR3uhI/2tHwLXqCtZ8uPkmCAY+S5ebC0Oz5taQqZCCp9nMFYD9mlZ0doseww==",
+  "dgSpecHash": "2R236GxGwlhdJF3FrJpqOD3QkqWHqJZ0SFeCfsR5t+Eggj/mTc/1xJGzRoxviwwmNCTYq8NfKKy78fPiHd9U0A==",
   "success": true,
   "projectFilePath": "D:\\JIM\\service\\EShopsolution-services\\OrderService.API\\OrderService.API.csproj",
   "expectedPackageFiles": [
@@ -80,6 +80,7 @@
     "C:\\Users\\OS\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\OS\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\OS\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\OS\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\OS\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\OS\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\OS\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",

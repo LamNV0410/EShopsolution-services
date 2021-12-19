@@ -30,7 +30,7 @@ D:\JIM\service\EShopsolution-services\FileService.API\obj\Debug\netcoreapp3.1\st
 D:\JIM\service\EShopsolution-services\FileService.API\obj\Debug\netcoreapp3.1\staticwebassets\FileService.API.StaticWebAssets.xml
 D:\JIM\service\EShopsolution-services\FileService.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\FileService.API.styles.css
 D:\JIM\service\EShopsolution-services\FileService.API\obj\Debug\netcoreapp3.1\FileService.API.RazorTargetAssemblyInfo.cache
-D:\JIM\service\EShopsolution-services\FileService.API\obj\Debug\netcoreapp3.1\FileService.API.csproj.CopyComplete
 D:\JIM\service\EShopsolution-services\FileService.API\obj\Debug\netcoreapp3.1\FileService.API.dll
 D:\JIM\service\EShopsolution-services\FileService.API\obj\Debug\netcoreapp3.1\FileService.API.pdb
 D:\JIM\service\EShopsolution-services\FileService.API\obj\Debug\netcoreapp3.1\FileService.API.genruntimeconfig.cache
+D:\JIM\service\EShopsolution-services\FileService.API\obj\Debug\netcoreapp3.1\FileService.API.csproj.AssemblyReference.cache
